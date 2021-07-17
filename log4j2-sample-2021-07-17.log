@@ -1,0 +1,5 @@
+[INFO ] 2021-07-17 23:43:45.077 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-17 23:43:45.681 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-17 23:43:47.842 [Test worker] LogClass - Internet is connected
+[INFO ] 2021-07-17 23:43:47.843 [Test worker] LogClass - Navigate to url udemy: https://www.udemy.com/ 
+[INFO ] 2021-07-17 23:44:12.734 [Test worker] LogClass - loginToApplication :Taking success screenshot by listener method

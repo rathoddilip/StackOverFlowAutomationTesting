@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.selenium.stackoverflow.test.StackOverFlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-17T18:46:52" hostname="arjun-HP-Laptop-15-bs0xx" time="26.703">
+  <properties/>
+  <testcase name="logOutFromApplication" classname="com.selenium.stackoverflow.test.StackOverFlowTest" time="26.703"/>
+  <system-out><![CDATA[[INFO ] 2021-07-18 00:16:53.638 [Test worker] LogClass - Clicking on login link
+[INFO ] 2021-07-18 00:16:57.792 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-18 00:17:00.937 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-18 00:17:04.052 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-18 00:17:04.145 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-18 00:17:07.160 [Test worker] LogClass - Mouse moving on icon of stack overflow
+[INFO ] 2021-07-18 00:17:10.340 [Test worker] LogClass - Clicking on icon of stack overflow
+[INFO ] 2021-07-18 00:17:11.504 [Test worker] LogClass - Clicking on logout link
+[INFO ] 2021-07-18 00:17:14.381 [Test worker] LogClass - Click on logout button
+[INFO ] 2021-07-18 00:17:18.211 [Test worker] LogClass - Logout successfully
+SUCCESS Test
+[INFO ] 2021-07-18 00:17:19.683 [Test worker] LogClass - logOutFromApplication :Taking success screenshot by listener method
+[INFO ] 2021-07-18 00:17:20.184 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
