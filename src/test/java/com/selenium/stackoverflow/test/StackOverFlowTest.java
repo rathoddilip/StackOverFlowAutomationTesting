@@ -21,7 +21,7 @@ public class StackOverFlowTest extends BaseClass {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Login to application with valid credentials")
     @Story("Test login account ")
-    @Test
+    @Test(priority = 1)
     public void loginToApplication() throws Exception {
         MyScreenRecorder.startRecording("loginToApplication");
         Login login = new Login(driver);
@@ -37,7 +37,7 @@ public class StackOverFlowTest extends BaseClass {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Logout from application")
     @Story("Test logout account ")
-    @Test
+    @Test(priority = 2)
     public void logOutFromApplication() throws InterruptedException, IOException {
         Login login = new Login(driver);
         login.signInUser();

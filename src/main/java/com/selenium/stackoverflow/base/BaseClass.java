@@ -1,5 +1,6 @@
 package com.selenium.stackoverflow.base;
 
+import com.selenium.stackoverflow.utility.EmailReport;
 import com.selenium.stackoverflow.utility.LogClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -53,6 +54,8 @@ public class BaseClass {
     // execute after test
     @AfterTest
     public void tearDown() {
+        EmailReport.sendMail();
+        LogClass.info("send reports to email");
         LogClass.info("******************************* End Test Cases ****************************************");
         driver.quit();
     }

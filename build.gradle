@@ -29,6 +29,9 @@ dependencies {
     implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.14.0'
     implementation group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
     implementation group: 'com.github.stephenc.monte', name: 'monte-screen-recorder', version: '0.7.7.0'
+    implementation group: 'org.apache.commons', name: 'commons-email', version: '1.5'
+//    implementation group: 'javax.mail', name: 'javax.mail-api', version: '1.6.2'
+    implementation group: 'javax.mail', name: 'javax.mail-api', version: '1.5.6'
 }
 
 test {

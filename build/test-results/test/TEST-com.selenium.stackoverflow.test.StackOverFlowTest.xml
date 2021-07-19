@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.selenium.stackoverflow.test.StackOverFlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-19T10:45:40" hostname="arjun-HP-Laptop-15-bs0xx" time="7.828">
+<testsuite name="com.selenium.stackoverflow.test.StackOverFlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-19T19:00:27" hostname="arjun-HP-Laptop-15-bs0xx" time="7.023">
   <properties/>
-  <testcase name="loginToApplication" classname="com.selenium.stackoverflow.test.StackOverFlowTest" time="7.828"/>
-  <system-out><![CDATA[[INFO ] 2021-07-19 16:15:43.023 [Test worker] LogClass - Clicking on login link
+  <testcase name="loginToApplication" classname="com.selenium.stackoverflow.test.StackOverFlowTest" time="7.023"/>
+  <system-out><![CDATA[[INFO ] 2021-07-20 00:30:30.389 [Test worker] LogClass - Clicking on login link
 please check file path and name
-[INFO ] 2021-07-19 16:15:45.347 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-19 16:15:46.852 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-19 16:15:47.973 [Test worker] LogClass - Click on login button
-[INFO ] 2021-07-19 16:15:48.036 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-20 00:30:32.488 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-20 00:30:33.634 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-20 00:30:34.739 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-20 00:30:34.811 [Test worker] LogClass - Login successfully
 SUCCESS Test
-[INFO ] 2021-07-19 16:15:48.352 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-20 00:30:35.093 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

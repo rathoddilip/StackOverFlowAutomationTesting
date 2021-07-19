@@ -1,0 +1,80 @@
+[INFO ] 2021-07-19 08:39:28.933 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 08:39:38.614 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 08:39:54.795 [Test worker] LogClass - Internet is connected
+[INFO ] 2021-07-19 08:39:54.796 [Test worker] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 08:41:46.114 [Test worker] LogClass - Clicking on login link
+[INFO ] 2021-07-19 08:42:11.435 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-19 08:42:12.752 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-19 08:42:13.897 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-19 08:42:13.987 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-19 08:42:13.991 [Test worker] LogClass - Mouse moving on icon of stack overflow
+[INFO ] 2021-07-19 08:42:41.655 [Test worker] LogClass - Clicking on icon of stack overflow
+[INFO ] 2021-07-19 08:42:42.757 [Test worker] LogClass - Clicking on logout link
+[INFO ] 2021-07-19 08:42:47.063 [Test worker] LogClass - Click on logout button
+[INFO ] 2021-07-19 08:43:11.297 [Test worker] LogClass - Logout successfully
+[INFO ] 2021-07-19 08:43:12.984 [Test worker] LogClass - logOutFromApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-19 08:43:13.815 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-19 15:20:05.555 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 15:20:10.903 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 15:20:35.391 [Test worker] LogClass - Internet is connected
+[INFO ] 2021-07-19 15:20:35.392 [Test worker] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 15:20:53.092 [Test worker] LogClass - Clicking on login link
+[INFO ] 2021-07-19 15:20:55.453 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-19 15:20:57.283 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-19 15:20:58.547 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-19 15:20:58.663 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-19 15:21:08.752 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-19 15:21:10.894 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-19 16:12:55.805 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 16:12:57.020 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 16:13:17.101 [Test worker] LogClass - Internet is connected
+[INFO ] 2021-07-19 16:13:17.102 [Test worker] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 16:13:32.066 [Test worker] LogClass - Clicking on login link
+[ERROR] 2021-07-19 16:13:32.869 [Test worker] LogClass - loginToApplication :take failed screenshot in Ilistner method
+[INFO ] 2021-07-19 16:13:33.823 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-19 16:15:27.151 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 16:15:27.936 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 16:15:34.015 [Test worker] LogClass - Internet is connected
+[INFO ] 2021-07-19 16:15:34.016 [Test worker] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 16:15:43.023 [Test worker] LogClass - Clicking on login link
+[INFO ] 2021-07-19 16:15:45.347 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-19 16:15:46.852 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-19 16:15:47.973 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-19 16:15:48.036 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-19 16:15:48.352 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-19 16:15:48.633 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-19 21:02:49.092 [Test worker] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 21:02:53.022 [Test worker] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 21:03:08.541 [Test worker] LogClass - Internet is connected
+[INFO ] 2021-07-19 21:03:08.542 [Test worker] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 21:03:23.719 [Test worker] LogClass - Clicking on login link
+[INFO ] 2021-07-19 21:03:26.183 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-19 21:03:27.326 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-19 21:03:28.437 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-19 21:03:28.505 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-19 21:03:46.645 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-19 21:03:47.047 [Test worker] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-19 23:44:19.548 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 23:44:29.281 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 23:44:45.558 [main] LogClass - Internet is connected
+[INFO ] 2021-07-19 23:44:45.560 [main] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 23:44:59.066 [main] LogClass - Clicking on login link
+[INFO ] 2021-07-19 23:45:01.466 [main] LogClass - Entering email id
+[INFO ] 2021-07-19 23:45:02.590 [main] LogClass - Entering password
+[INFO ] 2021-07-19 23:45:03.822 [main] LogClass - Click on login button
+[INFO ] 2021-07-19 23:45:03.901 [main] LogClass - Login successfully
+[INFO ] 2021-07-19 23:45:04.478 [main] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-19 23:45:17.444 [main] LogClass - send reports to email
+[INFO ] 2021-07-19 23:45:17.445 [main] LogClass - ******************************* End Test Cases ****************************************
+[INFO ] 2021-07-19 23:48:53.148 [main] LogClass - ******************************* Starting test cases ****************************************
+[INFO ] 2021-07-19 23:48:53.740 [main] LogClass - launching the Chrome browser
+[INFO ] 2021-07-19 23:48:55.458 [main] LogClass - Internet is connected
+[INFO ] 2021-07-19 23:48:55.459 [main] LogClass - Navigate to url udemy: https://stackoverflow.com/
+[INFO ] 2021-07-19 23:49:03.374 [main] LogClass - Clicking on login link
+[INFO ] 2021-07-19 23:49:06.122 [main] LogClass - Entering email id
+[INFO ] 2021-07-19 23:49:07.235 [main] LogClass - Entering password
+[INFO ] 2021-07-19 23:49:08.369 [main] LogClass - Click on login button
+[INFO ] 2021-07-19 23:49:08.458 [main] LogClass - Login successfully
+[INFO ] 2021-07-19 23:49:08.858 [main] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-19 23:49:30.575 [main] LogClass - send reports to email
+[INFO ] 2021-07-19 23:49:30.578 [main] LogClass - ******************************* End Test Cases ****************************************

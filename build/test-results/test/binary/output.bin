@@ -1,8 +1,8 @@
-P[INFO ] 2021-07-19 16:15:43.023 [Test worker] LogClass - Clicking on login link
+P[INFO ] 2021-07-20 00:30:30.389 [Test worker] LogClass - Clicking on login link
  please check file path and name
-K[INFO ] 2021-07-19 16:15:45.347 [Test worker] LogClass - Entering email id
-K[INFO ] 2021-07-19 16:15:46.852 [Test worker] LogClass - Entering password
-O[INFO ] 2021-07-19 16:15:47.973 [Test worker] LogClass - Click on login button
-L[INFO ] 2021-07-19 16:15:48.036 [Test worker] LogClass - Login successfully
+K[INFO ] 2021-07-20 00:30:32.488 [Test worker] LogClass - Entering email id
+K[INFO ] 2021-07-20 00:30:33.634 [Test worker] LogClass - Entering password
+O[INFO ] 2021-07-20 00:30:34.739 [Test worker] LogClass - Click on login button
+L[INFO ] 2021-07-20 00:30:34.811 [Test worker] LogClass - Login successfully
 SUCCESS Test
-|[INFO ] 2021-07-19 16:15:48.352 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+|[INFO ] 2021-07-20 00:30:35.093 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
