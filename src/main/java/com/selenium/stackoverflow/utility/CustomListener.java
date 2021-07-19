@@ -17,19 +17,18 @@ public class CustomListener extends BaseClass implements ITestListener {
     }
 
     public void onTestSuccess(ITestResult result) {
-
         System.out.println("SUCCESS Test");
         screenShotTestImage.success(result.getMethod().getMethodName());
-        LogClass.info(result.getMethod().getMethodName() + " :Taking success screenshot by listener method");
+        LogClass.info(result.getMethod().getMethodName() + " :take success screenshot in ITestlistner method");
         Allure.addAttachment(result.getName(), new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
     public void onTestFailure(ITestResult result) {
-
         System.out.println("FAILED Test");
+
         try {
             screenShotTestImage.failed(result.getMethod().getMethodName());
-            LogClass.error(result.getMethod().getMethodName() + " :Taking success screenshot by listener method");
+            LogClass.error(result.getMethod().getMethodName() + " :take failed screenshot in Ilistner method");
             Allure.addAttachment(result.getName(), new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         } catch (IOException exception) {
             exception.printStackTrace();

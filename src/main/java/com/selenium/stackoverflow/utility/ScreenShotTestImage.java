@@ -18,8 +18,8 @@ public class ScreenShotTestImage extends BaseClass {
 
     public void failed(String testMethodName) throws IOException {
 
-        sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
+            sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(sourceFile, new File(screenshotFilePath + "/testfailed/FAILED" + "_" + testMethodName + timeStamp + ".jpg"));
 
         } catch (IOException exception) {
@@ -29,8 +29,8 @@ public class ScreenShotTestImage extends BaseClass {
 
     public void success(String testMethodName) {
 
-        sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
+            sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(sourceFile, new File(screenshotFilePath + "/testsuccess/SUCCESS" + "_" + testMethodName + timeStamp + ".jpg"));
 
         } catch (IOException exception) {

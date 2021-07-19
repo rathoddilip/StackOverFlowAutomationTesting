@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import java.io.IOException;
@@ -39,17 +40,18 @@ public class BaseClass {
             e.printStackTrace();
             LogClass.info("Internet is not connected");
         }
+
         LogClass.info("Navigate to url udemy: https://stackoverflow.com/");
         driver.get("https://stackoverflow.com/");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         String actualUrl = driver.getCurrentUrl();
         String expectedUrl = "https://stackoverflow.com/";
         Assert.assertEquals(actualUrl, expectedUrl);
     }
 
     // execute after test
-    @AfterMethod
+    @AfterTest
     public void tearDown() {
         LogClass.info("******************************* End Test Cases ****************************************");
         driver.quit();
