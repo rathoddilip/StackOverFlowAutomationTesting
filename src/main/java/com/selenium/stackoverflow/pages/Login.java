@@ -16,14 +16,12 @@ public class Login extends BaseClass {
 
     public String propertyFilePath = "/home/arjun/Dilip/StackOverFlowApplicationAutomationTesting/src/test/resources/objectRepositoryOFWebElement.properties";
 
-    @FindBy(xpath = "//a[contains(text(), 'Log in')]")
-    WebElement loginLink;
     @FindBy(id = "email")
     WebElement emailId;
     @FindBy(id = "password")
     WebElement password;
     @FindBy(id = "submit-button")
-    WebElement submitbutton;
+    WebElement submitButton;
     @FindBy(xpath = "//a[@class='-link js-site-switcher-button js-gps-track']")
     WebElement iconLogout;
     @FindBy(xpath = "//a[contains(text(), 'log out')]")
@@ -41,7 +39,6 @@ public class Login extends BaseClass {
         LogClass.info("Clicking on login link");
         //Find element locator using object repository
         driver.findElement(By.xpath(ObjectRepoLiabrary.getLocatorProperty(propertyFilePath, "loginLinkRepo"))).click();
-        //loginLink.click();
     }
 
     public void setEmailId(String username) throws InterruptedException {
@@ -59,7 +56,7 @@ public class Login extends BaseClass {
     public void clickLogin() throws InterruptedException {
         Thread.sleep(1000);
         LogClass.info("Click on login button");
-        submitbutton.click();
+        submitButton.click();
         LogClass.info("Login successfully");
     }
 

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -54,9 +54,13 @@ public class BaseClass {
     // execute after test
     @AfterTest
     public void tearDown() {
-        EmailReport.sendMail();
-        LogClass.info("send reports to email");
         LogClass.info("******************************* End Test Cases ****************************************");
         driver.quit();
+    }
+    @AfterSuite
+    public void sendReportToGmail()
+    {
+        EmailReport.sendMail();
+        LogClass.info("send reports to email");
     }
 }

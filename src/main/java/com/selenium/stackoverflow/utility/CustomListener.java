@@ -4,6 +4,7 @@ import com.selenium.stackoverflow.base.BaseClass;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -16,6 +17,20 @@ public class CustomListener extends BaseClass implements ITestListener {
     public CustomListener() {
     }
 
+    public void onStart( ITestContext result) {
+        try {
+            MyScreenRecorder.startRecording(result.getName());
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
+    }
+    public void onFinish(ITestContext result)  {
+        try {
+            MyScreenRecorder.stopRecording();
+        } catch (Exception exception) {
+            exception.printStackTrace();
+        }
+    }
     public void onTestSuccess(ITestResult result) {
         System.out.println("SUCCESS Test");
         screenShotTestImage.success(result.getMethod().getMethodName());

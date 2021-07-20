@@ -1,8 +1,10 @@
-P[INFO ] 2021-07-20 00:30:30.389 [Test worker] LogClass - Clicking on login link
- please check file path and name
-K[INFO ] 2021-07-20 00:30:32.488 [Test worker] LogClass - Entering email id
-K[INFO ] 2021-07-20 00:30:33.634 [Test worker] LogClass - Entering password
-O[INFO ] 2021-07-20 00:30:34.739 [Test worker] LogClass - Click on login button
-L[INFO ] 2021-07-20 00:30:34.811 [Test worker] LogClass - Login successfully
+P[INFO ] 2021-07-21 00:44:19.669 [Test worker] LogClass - Clicking on login link
+K[INFO ] 2021-07-21 00:44:22.417 [Test worker] LogClass - Entering email id
+K[INFO ] 2021-07-21 00:44:23.542 [Test worker] LogClass - Entering password
+O[INFO ] 2021-07-21 00:44:24.643 [Test worker] LogClass - Click on login button
+L[INFO ] 2021-07-21 00:44:24.709 [Test worker] LogClass - Login successfully
+V[INFO ] 2021-07-21 00:44:24.712 [Test worker] LogClass - Mouse moving on icon of list
+Y[INFO ] 2021-07-21 00:44:30.966 [Test worker] LogClass - Getting the tool tip as a title
+3ToolTip is: A list of all 178 Stack Exchange sites
 SUCCESS Test
-|[INFO ] 2021-07-20 00:30:35.093 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+w[INFO ] 2021-07-21 00:44:31.365 [Test worker] LogClass - toolTipVerify :take success screenshot in ITestlistner method

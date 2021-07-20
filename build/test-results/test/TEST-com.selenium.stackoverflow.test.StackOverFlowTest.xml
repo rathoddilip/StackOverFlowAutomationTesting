@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.selenium.stackoverflow.test.StackOverFlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-19T19:00:27" hostname="arjun-HP-Laptop-15-bs0xx" time="7.023">
+<testsuite name="com.selenium.stackoverflow.test.StackOverFlowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-20T19:14:17" hostname="arjun-HP-Laptop-15-bs0xx" time="13.76">
   <properties/>
-  <testcase name="loginToApplication" classname="com.selenium.stackoverflow.test.StackOverFlowTest" time="7.023"/>
-  <system-out><![CDATA[[INFO ] 2021-07-20 00:30:30.389 [Test worker] LogClass - Clicking on login link
-please check file path and name
-[INFO ] 2021-07-20 00:30:32.488 [Test worker] LogClass - Entering email id
-[INFO ] 2021-07-20 00:30:33.634 [Test worker] LogClass - Entering password
-[INFO ] 2021-07-20 00:30:34.739 [Test worker] LogClass - Click on login button
-[INFO ] 2021-07-20 00:30:34.811 [Test worker] LogClass - Login successfully
+  <testcase name="toolTipVerify" classname="com.selenium.stackoverflow.test.StackOverFlowTest" time="13.76"/>
+  <system-out><![CDATA[[INFO ] 2021-07-21 00:44:19.669 [Test worker] LogClass - Clicking on login link
+[INFO ] 2021-07-21 00:44:22.417 [Test worker] LogClass - Entering email id
+[INFO ] 2021-07-21 00:44:23.542 [Test worker] LogClass - Entering password
+[INFO ] 2021-07-21 00:44:24.643 [Test worker] LogClass - Click on login button
+[INFO ] 2021-07-21 00:44:24.709 [Test worker] LogClass - Login successfully
+[INFO ] 2021-07-21 00:44:24.712 [Test worker] LogClass - Mouse moving on icon of list
+[INFO ] 2021-07-21 00:44:30.966 [Test worker] LogClass - Getting the tool tip as a title
+ToolTip is: A list of all 178 Stack Exchange sites
 SUCCESS Test
-[INFO ] 2021-07-20 00:30:35.093 [Test worker] LogClass - loginToApplication :take success screenshot in ITestlistner method
+[INFO ] 2021-07-21 00:44:31.365 [Test worker] LogClass - toolTipVerify :take success screenshot in ITestlistner method
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

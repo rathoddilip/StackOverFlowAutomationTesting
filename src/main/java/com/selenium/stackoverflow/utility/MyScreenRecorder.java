@@ -5,6 +5,7 @@ import org.monte.media.Format;
 import org.monte.media.FormatKeys;
 import org.monte.media.Registry;
 import org.monte.media.math.Rational;
+import org.testng.ITestResult;
 
 import java.awt.*;
 import java.io.File;
@@ -30,17 +31,20 @@ public class MyScreenRecorder extends ScreenRecorder {
     }
 
     @Override
-    protected File createMovieFile(Format fileFormat) throws IOException {
+    protected File createMovieFile(Format fileFormat) {
 
         if (!movieFolder.exists()) {
             movieFolder.mkdirs();
         } else if (!movieFolder.isDirectory()) {
-            throw new IOException("\"" + movieFolder + "\" is not a directory.");
+            try {
+                throw new CustomException(CustomException.ExceptionType.IS_NOT_A_DIRECTORY, "please check directory name");
+            } catch (CustomException exception) {
+                System.out.println(exception.getMessage());
+            }
         }
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH.mm.ss");
         return new File(movieFolder,
                 name + "-" + dateFormat.format(new Date()) + "." + Registry.getInstance().getExtension(fileFormat));
-
     }
 
     public static void startRecording(String methodName) throws Exception {
@@ -52,9 +56,7 @@ public class MyScreenRecorder extends ScreenRecorder {
 
         Rectangle captureSize = new Rectangle(0, 0, width, height);
 
-        GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().
-                getDefaultScreenDevice()
-                .getDefaultConfiguration();
+        GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
 
         screenRecorder = new MyScreenRecorder(gc, captureSize,
                 new Format(MediaTypeKey, FormatKeys.MediaType.FILE, MimeTypeKey, MIME_AVI),

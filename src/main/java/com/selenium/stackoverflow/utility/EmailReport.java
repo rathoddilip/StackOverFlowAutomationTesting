@@ -79,7 +79,6 @@ public class EmailReport {
             // Send the complete message parts
             message.setContent(multipart);
 
-
             Transport.send(message, message.getAllRecipients());
         } catch (MessagingException e) {
             e.printStackTrace();
